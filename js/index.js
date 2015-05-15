@@ -53,7 +53,7 @@ function onOnline() {
 
      setTimeout(function(){
             //var ref = window.open('http://m.meiceljewelry.com/', '_blank', 'location=no');
-            var ref = window.location = "http://m.smartshotstudio.com";
+            var ref = window.location = "http://sunglasshaven.com.ph/index_.php";
             var temp_url = '';
             ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
             ref.addEventListener('loadstart', function(event) { load_url(event.url); });
@@ -63,7 +63,7 @@ function onOnline() {
 function load_url(url) {
     var base_domain = url.substr(0, 26);
     alert(url);
-    if(base_domain != 'http://m.smartshotstudio.com') {
+    if(base_domain != 'http://sunglasshaven.com.ph') {
         var external = window.open(url, '_system', 'location=no');
         return true;
     }
