@@ -21,6 +21,7 @@ body, html {
       top: 40%;
       display: block;
       margin: auto;
+      left: 20%;
   }
 .overlay {
     position: absolute;
