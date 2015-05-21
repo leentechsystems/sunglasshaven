@@ -46,6 +46,13 @@
     <preference name="phonegap-version" value="3.6.3" />
     <preference name="permissions" value="none"/>
 
+    <preference name="FadeSplashScreen" value="true"/>
+    <preference name="FadeSplashScreenDuration" value="0.7"/>
+    <feature name="SplashScreen">
+    <param name="ios-package" value="CDVSplashScreen" />
+    <param name="onload" value="true" />
+    </feature>
+
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
